@@ -1,0 +1,173 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--font-family-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+
+    <!-- title of site -->
+    <title>Metricalo Task</title>
+
+    <!--style.css-->
+    <link rel="stylesheet" href="assets/css/checkout.css" />
+    <!--responsive.css-->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body class="bg-image">
+    <div class="container-body">
+    <h3>Checkout</h3>
+    <div class="container">
+      <div class="left">
+        <div class="contain">
+            <div class="accordion">
+                <h4>1. Shipping Information</h4>
+                <img src="./assets/images/arrow-down.svg" />
+            </div>
+          <div class="panel">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+
+        <div class="contain">
+            <div class="accordion">
+                <h4>2.  Payment</h4>
+                <img src="./assets/images/arrow-down.svg" />
+            </div>
+            <div class="panel">
+                <div class="pay-method">
+                <div class="pay-title">
+                    <h5>Payment method</h5>
+                    <div class="pay-card">
+                        <img src="./assets/images/visa.png" />
+                        <img src="./assets/images/visa.png" />
+                        <img src="./assets/images/visa.png" />
+                        <img src="./assets/images/visa.png" />
+                        <img src="./assets/images/visa.png" />
+                    </div>
+                </div>
+                <div class="pay-info">
+                    <div class="pay-input">
+                        <label>Cardholder Name</label>
+                        <input type="text" placeholder="John Doe"/>
+                    </div>
+                    <div class="pay-input">
+                        <label>Cardholder Name</label>
+                        <input type="text" placeholder="John Doe"/>
+                    </div>
+                    <div class="date-cvc">
+                    <div class="pay-input">
+                        <label>Cardholder Name</label>
+                        <input type="text" placeholder="John Doe"/>
+                    </div> <div class="pay-input">
+                        <label>Cardholder Name</label>
+                        <input type="text" placeholder="John Doe"/>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+           
+            </div>
+          </div>
+
+        <button class="pay-btn">Pay Now</button>
+      </div>
+      <div class="right">
+        <div class="feedback-slide">
+          <div class="feedback">
+            <h5>Ellin Wright</h5>
+            <div class="star">
+                <img src="./assets/images/Star.svg"/>
+                <img src="./assets/images/Star.svg"/>
+                <img src="./assets/images/Star.svg"/>
+                <img src="./assets/images/Star.svg"/>
+                <img src="./assets/images/Star.svg"/>
+            </div>
+            <p>
+              Fantastic service. Friendly, quick and professional. I have no
+              hesitation in recommending this company. Thank you.
+            </p>
+          </div>
+        </div>
+
+        <div class="order">
+          <h4>Oder Summary</h4>
+          <div class="cost">
+          <div class="cost-info">
+            <p>Today’s Cost</p>
+            <p>$200</p>
+          </div>
+          <div class="divider"></div>
+
+          <div class="cost-info">
+            <p>Total</p>
+            <p>$200</p>
+          </div>
+        </div>
+        </div>
+
+        <div class="support">
+            <div class="support-icon">
+                <div class="icon-desc">
+                    <img src="./assets/images/headphone.svg"/>
+                    <p>Technical Support</p>
+                </div>
+                <div class="icon-desc">
+                    <img src="./assets/images/secure.svg"/>
+                    <p>Secure Checkout</p>
+                </div>
+                <div class="icon-desc">
+                    <img src="./assets/images/protection.svg"/>
+                    <p>Safe Browsing</p>
+                </div>
+
+            </div>
+            <div class="support-desc">
+                <p>bsbbhelpline.com | bghelper.com | bbbcshelp.com | bbghelpdesk.com will be displayed on your bank statement as a charge from BENSET LIMITED</p>
+
+                <p>You will be billed by BENSET LIMITED, an e-commerce merchant located in the Cyprus.</p>
+
+
+                <p>By completing this purchase, you consent to a 2-day trial membership with bebudget.com for €2, and you acknowledge that unless you cancel within due time, You will be enrolled in the full 10-day membership at the price of €39 every 10 days. If the trial is not cancelled, you will be charged €39 every 10 days until the membership is canceled.</p>
+
+                <p>All purchases are covered by a 14-day full refund guarentee. The decision to reimburse a charge does not insure the obligation to reimburse other subsequent expenses. Any charge refunded by bebudget.com for any reason, will be refunded by the payment method used for the original transaction. bebudget.com will not credit any cash charges. Any request for refund must be made by contacting customer service.</p>
+
+            </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+    <footer>
+        <p>bebudget.com 2024. BENSET LIMITED, 439480 - 18A Panteli Katelari, Limassol 3012, Cyprus</p>
+    </footer>
+
+    <!--Custom JS-->
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
+      }
+    </script>
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>

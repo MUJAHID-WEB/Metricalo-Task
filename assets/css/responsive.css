@@ -1,0 +1,353 @@
+@media screen and (max-width:1439px) {
+	.feature-card {
+		width: auto;
+	}
+
+}
+
+/*max-width:1440px*/
+
+@media screen and (max-width:1024px) {
+	h1 {
+		font-size: 36px;
+		line-height: 44px;
+	}
+
+	h3 {
+		font-size: 30px;
+		line-height: 38px;
+	}
+
+	p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.container {
+		align-items: center;
+	}
+
+
+	header {
+		padding: 15px 18px;
+	}
+
+	.menu,
+	.auth {
+		display: none;
+	}
+
+	.menu{
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background-color: white;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		z-index: 1000;
+	}
+
+	.menu-mobile {
+		display: block;
+		padding: 0px;
+		border-radius: 0px;
+		background: transparent;
+
+	}
+
+
+	.logo-link {
+		margin-right: auto;
+		align-items: left;
+	}
+
+	.language img {
+		width: 20px;
+		height: 20px;
+
+		flex-shrink: 0;
+		border-radius: 100px;
+	}
+
+
+	.hero-container {
+		padding: 100px 16px;
+	}
+
+	.hero-container h1 {
+		text-align: center;
+		line-height: 44px;
+		letter-spacing: -0.72px;
+	}
+
+	.hero-container p {
+		text-align: center;
+		padding: 32px 0px;
+	}
+
+	.feature {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 64px;
+		padding: 64px 16px;
+	}
+
+
+	.feature-card {
+		width: 100%;
+		height: auto;
+		padding: 24px;
+		gap: 12px;
+	}
+
+	.about {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 64px;
+		padding: 64px 16px;
+		width: 100%;
+	}
+
+	.about-head {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 18px;
+		width: 100%;
+	}
+
+	.about-head h3 {
+		text-align: center;
+	}
+
+	.about-img {
+		width: 343px;
+		height: 356px;
+		flex-shrink: 0;
+		border-radius: 171.5px;
+	}
+
+	.pricing {
+		display: flex;
+		padding: 64px 16px;
+		flex-direction: column;
+		align-items: center;
+		gap: 64px;
+	}
+
+	.footer-section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 48px 0px 0px 0px;
+	}
+
+
+	.copyright {
+		padding: 40px 16px;
+	}
+
+	.copyright p {
+		font-size: 12px;
+	}
+}
+
+/*max-width:1024px*/
+
+
+@media screen and (max-width:768px) {
+	.pricing-body{
+		flex-direction: column;
+	}
+}
+
+/*max-width:768px*/
+
+
+@media screen and (max-width:375px) {
+	body {
+		width: 375px;
+	}
+
+	h1 {
+		font-size: 36px;
+		line-height: 44px;
+	}
+
+	h3 {
+		font-size: 30px;
+		line-height: 38px;
+	}
+
+	p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	header {
+		padding: 15px 18px;
+	}
+
+	.menu,
+	.auth {
+		display: none;
+	}
+
+	.menu{
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background-color: white;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		z-index: 1000;
+	}
+
+	.menu-mobile {
+		display: block;
+		padding: 0px;
+		border-radius: 0px;
+		background: transparent;
+
+	}
+
+
+	.logo-link {
+		margin-right: auto;
+		align-items: left;
+	}
+
+	.language img {
+		width: 20px;
+		height: 20px;
+
+		flex-shrink: 0;
+		border-radius: 100px;
+	}
+
+
+	.hero-container {
+		padding: 100px 16px;
+	}
+
+	.hero-container h1 {
+		text-align: center;
+		line-height: 44px;
+		letter-spacing: -0.72px;
+	}
+
+	.hero-container p {
+		text-align: center;
+		padding: 32px 0px;
+	}
+
+	.feature {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 64px;
+		padding: 64px 16px;
+	}
+
+
+
+	.feature-card {
+		width: 343px;
+		height: auto;
+		padding: 24px;
+		gap: 12px;
+	}
+
+	.about {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 64px;
+		padding: 64px 16px;
+		background: #191B1F;
+	}
+
+	.about-head {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 18px;
+	}
+
+	.about-head h3 {
+		text-align: center;
+	}
+
+	.about-img {
+		width: 343px;
+		height: 356px;
+		flex-shrink: 0;
+		border-radius: 171.5px;
+	}
+
+	.pricing {
+		display: flex;
+		padding: 64px 16px;
+		flex-direction: column;
+		align-items: center;
+		gap: 64px;
+	}
+
+	.pricing-body {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 32px;
+
+	}
+
+	.pricing-card {
+		display: flex;
+		width: 343px;
+	}
+
+	.footer-section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 48px 0px 0px 0px;
+	}
+
+	.footer-body {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 48px;
+		align-self: stretch;
+	}
+
+	.footer-lc {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 32px;
+		padding: 0px 16px;
+		flex: 1 0 0;
+	}
+
+	.copyright {
+		padding: 40px 16px;
+	}
+
+	.copyright p {
+		font-size: 12px;
+	}
+
+	
+
+}
+
+/*max-width:375px*/
