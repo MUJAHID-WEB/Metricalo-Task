@@ -40,11 +40,14 @@
           <img src="./assets/images/arrow-down.svg" />
         </div>
    
-          <a class="menu-mobile">
+          <a onclick=showSidebar() class="menu-mobile">
             <img  src="./assets/images/menu.svg" />
           </a>
 
-          <div class="mobilemenu" id="mobilemenu">
+          <div class="mobilemenu">
+            <a onclick=hideSidebar() class="menu-close">
+              <img  src="./assets/images/close.svg" />
+            </a>
             <a href="#home">Home</a>
             <a href="#contact">Contact Us</a>
             <a href="#about">About Us</a>
@@ -327,6 +330,17 @@
 
     <!--Custom JS-->
     <script src="assets/js/custom.js"></script>
+    <script>
+      function showSidebar(){
+        const sidebar = document.querySelector('.mobilemenu')
+        sidebar.style.display = 'flex'
+      }
+
+      function hideSidebar(){
+        const sidebar = document.querySelector('.mobilemenu')
+        sidebar.style.display = 'none'
+      }
+    </script>
 
   </body>
 </html>

@@ -1,5 +1,5 @@
 @media screen and (max-width:1439px) {
-	.feature-card {
+.feature-card {
 		width: auto;
 	}
 
@@ -97,7 +97,7 @@
 	}
 
 
-	.feature-card {
+	.feature-card{
 		width: 100%;
 		height: auto;
 		padding: 24px;
@@ -259,7 +259,7 @@
 
 
 
-	.feature-card {
+.feature-card {
 		width: 343px;
 		height: auto;
 		padding: 24px;
